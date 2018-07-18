@@ -28,3 +28,15 @@ Exemplos de utilização do console.qqcoisa no navegador.
 
 ### tedbox.conf
 Configuração do Logstash para indexação dos logs da aplicação exemplo.
+
+
+## Referencias
+- [Docker Hub ELK](https://hub.docker.com/r/sebp/elk/)
+- [Documentação Docker ELK](http://elk-docker.readthedocs.io/)
+- [Documentação Logstash](https://www.elastic.co/guide/en/logstash/current/introduction.html)
+- [Documentação Elasticsearch](https://www.elastic.co/guide/en/elasticsearch/reference/current/getting-started.html)
+- [Documentação Filebeat](https://www.elastic.co/guide/en/beats/filebeat/current/filebeat-getting-started.html)
+- [Doc. Filebeat on Docker](https://www.elastic.co/guide/en/beats/filebeat/current/running-on-docker.html)
+- [Documentação Metricbeat](https://www.elastic.co/guide/en/beats/metricbeat/current/metricbeat-getting-started.html)
+- [Doc. Metricbeat on Docker](https://www.elastic.co/guide/en/beats/metricbeat/current/running-on-docker.html)
+- [Documentação Log4J](https://logging.apache.org/log4j/2.x/)
