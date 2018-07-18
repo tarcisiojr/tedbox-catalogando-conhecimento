@@ -2,6 +2,8 @@
 
 Neste respositório possui exemplos de como indexar logs na Plataforma ELK (Elasticsearch, Logstash e Kibana).
 
+[Kibana Local](http://localhost:5601)
+
 ## Requisitos
 
 Seguem os requisitos para executar este exemplo:
