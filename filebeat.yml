@@ -1,0 +1,7 @@
+filebeat.inputs:
+- type: log
+  enabled: true
+  paths:
+    - /tedbox.log
+output.logstash:
+  hosts: ["localhost:5045"]
