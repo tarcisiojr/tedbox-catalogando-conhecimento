@@ -1,6 +1,11 @@
+# Configuracoes
 metricbeat.config.modules:
+  # Glob pattern for configuration reloading
   path: ${path.config}/modules.d/*.yml
+
+  # Set to true to enable config reloading
   reload.enabled: false
 
+# Saida. Para onde as informações serão enviadas.
 output.elasticsearch:
   hosts: ['localhost:9200']

@@ -1,7 +1,16 @@
+# Entradas
 filebeat.inputs:
 - type: log
+
+  # Habilita ou desabilita o log (default true)
   enabled: true
+
+  # Diretório onde os logs podem ser lidos. Pode utilizar wildcards ex.: /xpto/*.log
   paths:
     - /tedbox.log
+
+# Pode existir +1 de uma entrada e +1 de um formato (Ex. poderia ler os logs de um Apache)
+
+# Para onde serão enviados os logs lidos (poder existir +1)
 output.logstash:
   hosts: ["localhost:5045"]
